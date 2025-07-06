@@ -1,21 +1,9 @@
 :root {
-  /* font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; */
-  height: 100%;
   margin: 0;
 }
 
 body {
+  font-family: Inter, sans-serif;
   margin: 0;
 }
 
@@ -36,10 +24,85 @@ header > img {
 }
 
 header > span {
-  font-family: Inter, sans-serif;
   font-weight: 500;
   font-style: medium;
   font-size: 0.9rem;
   line-height: 100%;
   letter-spacing: -7.5%;
+}
+
+.entry {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+  margin-top: 36px;
+  margin-bottom: 36px;
+}
+
+.entry__image {
+  width: 125px;
+  height: 168px;
+  opacity: 1;
+  border-radius: 5px;
+}
+
+.entry__content {
+  margin-left: 19px;
+}
+
+.entry__marker {
+  width: 7px;
+}
+
+.entry__country-name {
+  margin-left: 4px;
+  font-weight: 400;
+  font-style: regular;
+  font-size: 0.66rem;
+  line-height: 100%;
+  letter-spacing: 17%;
+  color: #2b283a;
+}
+
+.entry__google-maps-link {
+  margin-left: 12px;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 10.24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 0%;
+  color: #918e9b;
+}
+
+.entry__name {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 1.55rem;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #2b283a;
+}
+
+.entry__dates {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 0.66rem;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #2b283a;
+}
+
+.entry__description {
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 10.24px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #2b283a;
 }
