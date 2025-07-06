@@ -15,7 +15,7 @@ export default function Entry(props) {
         <a href={props.googleMapsLink} className="entry__google-maps-link">
           View on Google Maps
         </a>
-        <h2 className="entry__name">{props.name}</h2>
+        <h2 className="entry__name">{props.title}</h2>
         <span className="entry__dates">{props.dates}</span>
         <p className="entry__description">{props.text}</p>
       </div>
