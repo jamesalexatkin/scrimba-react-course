@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  color: #ffffff;
+  background-color: #282d35;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+nav > img {
+  width: 40px;
+  margin-right: 7px;
+}
+
+.header {
+  background-color: #21222a;
+  padding: 30px 25px;
+}
+
+.nav-list-item {
+  margin-left: 10px;
+  font-size: 1.1rem;
+}
+
+.react-facts {
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 100%;
+  letter-spacing: -5%;
+  color: #61dafb;
+  padding: 6.68px;
+}
+
+.logo {
+  width: 158px;
+  height: 28.93px;
+  top: 31px;
+  left: 26px;
+}
+
+main {
+  padding: 60px 30px;
+  background-image: url("react-logo-half.png");
+  background-repeat: no-repeat;
+  background-position: right 70%;
+}
+
+main > h1 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 100%;
+  letter-spacing: -5%;
+}
+
+.facts-list {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-top: 46px;
+  max-width: 400px;
+}
+
+.facts-list > li {
+  padding-block: 10px;
+  line-height: 19px;
+}
+
+.facts-list > li::marker {
+  color: #61dafb;
+  font-size: 1.5rem;
+}
