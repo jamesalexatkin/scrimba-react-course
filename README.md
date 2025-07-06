@@ -9,7 +9,7 @@
 <h4 align="center">Code from <a href="https://scrimba.com/learn-react-c0e">Bob Ziroll's React course</a> on Scrimba.</h4>
 
 - ✅ **1** - Static pages
-- ➖ **2** - Data-driven React
+- 🔄 **2** - Data-driven React
 - ➖ **3** - React state
 - ➖ **4** - Side effects
 - ➖ **5** - Capstone project #1 - Tenzies
