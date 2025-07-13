@@ -1,10 +1,11 @@
+import Header from "./components/Header";
+import Main from "./components/Main";
+
 export default function App() {
   return (
     <>
-      <header>
-        <img src="/Chef Claude Icon.png"></img>
-        <h1>Chef Claude</h1>
-      </header>
+      <Header />
+      <Main />
     </>
   );
 }
